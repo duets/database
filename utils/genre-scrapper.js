@@ -1,3 +1,9 @@
+/**
+ * This nice little script scans all the genres present in the "browse genres" section
+ * of Sputnik Music and goes through all of them finding the compatible tags. After it,
+ * dumps the data into the genres.json file.
+ */
+
 const puppeteer = require('puppeteer');
 const path = require('path');
 const fs = require('fs');
@@ -6,7 +12,7 @@ const { performance } = require('perf_hooks');
 const sputnikUrl = 'https://www.sputnikmusic.com/';
 
 const currentPath = process.cwd();
-const resultFilePath = path.join(currentPath, 'results.json');
+const resultFilePath = path.join(currentPath, '../genres.json');
 
 const fileAlreadyExists = fs.existsSync(resultFilePath);
 if (fileAlreadyExists) {
@@ -58,18 +64,18 @@ const startingTime = performance.now();
         await page.goto(genre.url);
 
         console.log(`Processing tags of genre ${genre.name}`)
-        const relatedGenres = await page.evaluate(() => {
+        const compatibleGenres = await page.evaluate(() => {
             const tags = document.querySelectorAll('.tag');
             const tagsArray = [...tags];
             const tagsText = tagsArray.map((t) => t.textContent);
 
             return tagsText;
         });
-        console.log(`Tags processed. Got ${relatedGenres.length} entries`);
+        console.log(`Tags processed. Got ${compatibleGenres.length} entries`);
 
         const scrappedGenre = {
             name: genre.name,
-            related: relatedGenres
+            compatible: compatibleGenres
         };
         scrappedGenres.push(scrappedGenre);
     }
