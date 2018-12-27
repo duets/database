@@ -1,7 +1,7 @@
 [
     {
         "name": "Alternative Rock",
-        "compatible": ["Indie Rock", "Post-Rock", "Indie Pop", "Shoegaze", "Lo-fi", "Indie Folk"]
+        "compatible": ["Indie Rock", "Post Rock", "Indie Pop", "Shoegaze", "Lo-fi", "Indie Folk"]
     },
     {
         "name": "Electronic",
@@ -13,10 +13,10 @@
         "compatible": [
             "Experimental",
             "Jazz Fusion",
-            "Progressive Rock",
             "Electronic",
+            "Progressive Rock",
             "Hip-Hop",
-            "Folk"
+            "Funk"
         ]
     },
     {
@@ -33,7 +33,7 @@
     { "name": "Pop ", "compatible": ["Pop Rock", "Dream Pop", "Britpop"] },
     {
         "name": "Punk",
-        "compatible": ["Hardcore", "Emo", "Post-Hardcore", "Post-Punk", "Pop Punk", "Ska"]
+        "compatible": ["Hardcore", "Emo", "Post Hardcore", "Post Punk", "Pop Punk", "Ska"]
     },
     {
         "name": "Rock",
@@ -42,17 +42,17 @@
             "Progressive Rock",
             "Psychedelic",
             "Hard Rock",
-            "Stoner Rock",
-            "Blues"
+            "Blues",
+            "Stoner Rock"
         ]
     },
     {
         "name": "Ambient",
-        "compatible": ["Electronic", "Experimental", "Drone", "Black Metal", "Post-Rock", "Techno"]
+        "compatible": ["Electronic", "Experimental", "Drone", "Black Metal", "Post Rock", "Techno"]
     },
     {
         "name": "Americana",
-        "compatible": ["Folk", "Country", "Rock", "Indie Folk", "Indie Rock", "Alternative Rock"]
+        "compatible": ["Folk", "Country", "Rock", "Indie Rock", "Indie Folk", "Alternative Rock"]
     },
     {
         "name": "Black Metal",
@@ -60,7 +60,7 @@
     },
     {
         "name": "Bluegrass",
-        "compatible": ["Folk", "Country", "Americana", "Jam Rock", "Jazz", "Experimental"]
+        "compatible": ["Folk", "Country", "Americana", "Jam Rock", "Pop ", "Indie Folk"]
     },
     {
         "name": "Blues",
@@ -78,7 +78,7 @@
             "Indie Pop",
             "Pop Rock",
             "Psychedelic",
-            "Shoegaze"
+            "Electronic"
         ]
     },
     {
@@ -105,8 +105,8 @@
         "compatible": [
             "Death Metal",
             "Black Metal",
-            "Sludge Metal",
             "Stoner Rock",
+            "Sludge Metal",
             "Metal ",
             "Psychedelic"
         ]
@@ -134,7 +134,7 @@
             "Electronic",
             "Doom Metal",
             "Psychedelic",
-            "Post-Rock"
+            "Post Rock"
         ]
     },
     {
@@ -149,10 +149,10 @@
         "name": "Emo",
         "compatible": [
             "Hardcore",
-            "Post-Hardcore",
+            "Post Hardcore",
             "Indie Rock",
             "Punk",
-            "Post-Rock",
+            "Post Rock",
             "Alternative Rock"
         ]
     },
@@ -182,11 +182,11 @@
     },
     {
         "name": "Gothic",
-        "compatible": ["Post-Punk", "Metal ", "Doom Metal", "Industrial", "Electronic", "Rock"]
+        "compatible": ["Post Punk", "Metal ", "Doom Metal", "Industrial", "Electronic", "Rock"]
     },
     {
         "name": "Grime",
-        "compatible": ["Electronic", "Hip-Hop", "Dubstep", "House", "Garage", "Experimental"]
+        "compatible": ["Electronic", "Hip-Hop", "Dubstep", "Garage", "House", "Experimental"]
     },
     {
         "name": "Grind",
@@ -209,7 +209,7 @@
     },
     {
         "name": "Hardcore",
-        "compatible": ["Punk", "Emo", "Metalcore", "Grind", "Post-Hardcore", "Death Metal"]
+        "compatible": ["Punk", "Emo", "Metalcore", "Grind", "Post Hardcore", "Death Metal"]
     },
     {
         "name": "Heavy Metal",
@@ -233,7 +233,7 @@
     },
     {
         "name": "Indie Rock",
-        "compatible": ["Alternative Rock", "Indie Pop", "Emo", "Folk", "Post-Punk", "Punk"]
+        "compatible": ["Alternative Rock", "Indie Pop", "Emo", "Folk", "Post Punk", "Punk"]
     },
     {
         "name": "Industrial",
@@ -268,9 +268,9 @@
     {
         "name": "Math Rock",
         "compatible": [
-            "Post-Rock",
             "Emo",
-            "Post-Hardcore",
+            "Post Rock",
+            "Post Hardcore",
             "Progressive Rock",
             "Indie Rock",
             "Alternative Rock"
@@ -292,7 +292,7 @@
         "compatible": [
             "Hardcore",
             "Death Metal",
-            "Post-Hardcore",
+            "Post Hardcore",
             "Progressive Metal",
             "Metal ",
             "Electronic"
@@ -311,8 +311,8 @@
         "compatible": [
             "Experimental",
             "Punk",
-            "Post-Punk",
-            "Post-Hardcore",
+            "Post Punk",
+            "Post Hardcore",
             "Psychedelic",
             "Hardcore"
         ]
@@ -323,14 +323,14 @@
     },
     {
         "name": "Pop Punk",
-        "compatible": ["Punk", "Alternative Rock", "Emo", "Pop Rock", "Indie Rock", "Post-Hardcore"]
+        "compatible": ["Alternative Rock", "Punk", "Emo", "Pop Rock", "Indie Rock", "Post Hardcore"]
     },
     {
         "name": "Pop Rock",
         "compatible": ["Alternative Rock", "Pop ", "Rock", "Pop Punk", "Indie Rock", "Indie Pop"]
     },
     {
-        "name": "Post-Hardcore",
+        "name": "Post Hardcore",
         "compatible": [
             "Emo",
             "Alternative Rock",
@@ -341,18 +341,18 @@
         ]
     },
     {
-        "name": "Post-Metal",
+        "name": "Post Metal",
         "compatible": [
             "Black Metal",
-            "Post-Rock",
+            "Post Rock",
             "Sludge Metal",
             "Shoegaze",
-            "Doom Metal",
-            "Metal "
+            "Metal ",
+            "Doom Metal"
         ]
     },
     {
-        "name": "Post-Punk",
+        "name": "Post Punk",
         "compatible": [
             "Alternative Rock",
             "Gothic",
@@ -363,14 +363,14 @@
         ]
     },
     {
-        "name": "Post-Rock",
+        "name": "Post Rock",
         "compatible": [
             "Emo",
-            "Shoegaze",
             "Ambient",
+            "Shoegaze",
             "Black Metal",
             "Progressive Rock",
-            "Alternative Rock"
+            "Indie Rock"
         ]
     },
     {
@@ -381,7 +381,7 @@
             "Metal ",
             "Thrash Metal",
             "Progressive Rock",
-            "Hard Rock"
+            "Melodic Death Metal"
         ]
     },
     {
@@ -427,10 +427,10 @@
         "compatible": [
             "Black Metal",
             "Alternative Rock",
-            "Post-Rock",
+            "Post Rock",
             "Dream Pop",
             "Indie Rock",
-            "Post-Metal"
+            "Post Metal"
         ]
     },
     {
@@ -443,7 +443,7 @@
             "Doom Metal",
             "Metal ",
             "Hardcore",
-            "Post-Metal",
+            "Post Metal",
             "Stoner Rock",
             "Black Metal"
         ]
