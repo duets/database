@@ -1,0 +1,483 @@
+[
+    {
+        "name": "Alternative Rock",
+        "compatible": ["Indie Rock", "Post-Rock", "Indie Pop", "Shoegaze", "Lo-fi", "Indie Folk"]
+    },
+    {
+        "name": "Electronic",
+        "compatible": ["Ambient", "Techno", "House", "Drum and Bass", "Downtempo", "Dubstep"]
+    },
+    { "name": "Hip-Hop", "compatible": [] },
+    {
+        "name": "Jazz",
+        "compatible": [
+            "Experimental",
+            "Jazz Fusion",
+            "Progressive Rock",
+            "Electronic",
+            "Hip-Hop",
+            "Folk"
+        ]
+    },
+    {
+        "name": "Metal ",
+        "compatible": [
+            "Death Metal",
+            "Black Metal",
+            "Thrash Metal",
+            "Metalcore",
+            "Doom Metal",
+            "Progressive Metal"
+        ]
+    },
+    { "name": "Pop ", "compatible": ["Pop Rock", "Dream Pop", "Britpop"] },
+    {
+        "name": "Punk",
+        "compatible": ["Hardcore", "Emo", "Post-Hardcore", "Post-Punk", "Pop Punk", "Ska"]
+    },
+    {
+        "name": "Rock",
+        "compatible": [
+            "Folk",
+            "Progressive Rock",
+            "Psychedelic",
+            "Hard Rock",
+            "Stoner Rock",
+            "Blues"
+        ]
+    },
+    {
+        "name": "Ambient",
+        "compatible": ["Electronic", "Experimental", "Drone", "Black Metal", "Post-Rock", "Techno"]
+    },
+    {
+        "name": "Americana",
+        "compatible": ["Folk", "Country", "Rock", "Indie Folk", "Indie Rock", "Alternative Rock"]
+    },
+    {
+        "name": "Black Metal",
+        "compatible": ["Death Metal", "Ambient", "Doom Metal", "Shoegaze", "Folk", "Thrash Metal"]
+    },
+    {
+        "name": "Bluegrass",
+        "compatible": ["Folk", "Country", "Americana", "Jam Rock", "Jazz", "Experimental"]
+    },
+    {
+        "name": "Blues",
+        "compatible": ["Rock", "Psychedelic", "Hard Rock", "Folk", "Country", "Jazz"]
+    },
+    {
+        "name": "Breaks",
+        "compatible": ["Electronic", "Drum and Bass", "IDM", "Experimental", "Techno", "House"]
+    },
+    {
+        "name": "Britpop",
+        "compatible": [
+            "Alternative Rock",
+            "Indie Rock",
+            "Indie Pop",
+            "Pop Rock",
+            "Psychedelic",
+            "Shoegaze"
+        ]
+    },
+    {
+        "name": "Classical",
+        "compatible": ["Experimental", "Ambient", "Folk", "Soundtrack", "Electronic", "Jazz"]
+    },
+    {
+        "name": "Country",
+        "compatible": ["Folk", "Rock", "Americana", "Pop ", "Blues", "Alternative Rock"]
+    },
+    {
+        "name": "Death Metal",
+        "compatible": [
+            "Black Metal",
+            "Thrash Metal",
+            "Doom Metal",
+            "Metalcore",
+            "Grind",
+            "Progressive Metal"
+        ]
+    },
+    {
+        "name": "Doom Metal",
+        "compatible": [
+            "Death Metal",
+            "Black Metal",
+            "Sludge Metal",
+            "Stoner Rock",
+            "Metal ",
+            "Psychedelic"
+        ]
+    },
+    {
+        "name": "Downtempo",
+        "compatible": ["Electronic", "Ambient", "Trip Hop", "Hip-Hop", "House", "IDM"]
+    },
+    {
+        "name": "Dream Pop",
+        "compatible": [
+            "Shoegaze",
+            "Indie Pop",
+            "Electronic",
+            "Alternative Rock",
+            "Indie Rock",
+            "Psychedelic"
+        ]
+    },
+    {
+        "name": "Drone",
+        "compatible": [
+            "Ambient",
+            "Experimental",
+            "Electronic",
+            "Doom Metal",
+            "Psychedelic",
+            "Post-Rock"
+        ]
+    },
+    {
+        "name": "Drum and Bass",
+        "compatible": ["Electronic", "Dubstep", "Ambient", "Breaks", "Experimental", "IDM"]
+    },
+    {
+        "name": "Dubstep",
+        "compatible": ["Electronic", "Drum and Bass", "Garage", "Grime", "Hip-Hop", "House"]
+    },
+    {
+        "name": "Emo",
+        "compatible": [
+            "Hardcore",
+            "Post-Hardcore",
+            "Indie Rock",
+            "Punk",
+            "Post-Rock",
+            "Alternative Rock"
+        ]
+    },
+    {
+        "name": "Experimental",
+        "compatible": ["Electronic", "Ambient", "Jazz", "Industrial", "Drone", "Psychedelic"]
+    },
+    {
+        "name": "Folk",
+        "compatible": [
+            "Alternative Rock",
+            "Psychedelic",
+            "Black Metal",
+            "Indie Rock",
+            "Rock",
+            "Pop "
+        ]
+    },
+    {
+        "name": "Folk Punk",
+        "compatible": ["Punk", "Folk", "Alternative Rock", "Indie Rock", "Emo", "Indie Folk"]
+    },
+    { "name": "Funk", "compatible": ["Soul", "Jazz", "Electronic", "R&B", "Hip-Hop", "Rock"] },
+    {
+        "name": "Garage",
+        "compatible": ["Punk", "Electronic", "Rock", "Psychedelic", "Indie Rock", "House"]
+    },
+    {
+        "name": "Gothic",
+        "compatible": ["Post-Punk", "Metal ", "Doom Metal", "Industrial", "Electronic", "Rock"]
+    },
+    {
+        "name": "Grime",
+        "compatible": ["Electronic", "Hip-Hop", "Dubstep", "House", "Garage", "Experimental"]
+    },
+    {
+        "name": "Grind",
+        "compatible": ["Hardcore", "Death Metal", "Punk", "Metalcore", "Experimental", "Emo"]
+    },
+    {
+        "name": "Grunge",
+        "compatible": ["Alternative Rock", "Rock", "Hard Rock", "Punk", "Indie Rock", "Metal "]
+    },
+    {
+        "name": "Hard Rock",
+        "compatible": [
+            "Rock",
+            "Heavy Metal",
+            "Alternative Rock",
+            "Psychedelic",
+            "Stoner Rock",
+            "Metal "
+        ]
+    },
+    {
+        "name": "Hardcore",
+        "compatible": ["Punk", "Emo", "Metalcore", "Grind", "Post-Hardcore", "Death Metal"]
+    },
+    {
+        "name": "Heavy Metal",
+        "compatible": ["Hard Rock", "Power Metal", "Metal ", "Thrash Metal", "Doom Metal", "Rock"]
+    },
+    {
+        "name": "House",
+        "compatible": ["Electronic", "Techno", "Ambient", "Pop ", "Hip-Hop", "Downtempo"]
+    },
+    {
+        "name": "IDM",
+        "compatible": ["Electronic", "Ambient", "Techno", "Experimental", "House", "Downtempo"]
+    },
+    {
+        "name": "Indie Folk",
+        "compatible": ["Folk", "Indie Rock", "Alternative Rock", "Indie Pop", "Lo-fi", "Americana"]
+    },
+    {
+        "name": "Indie Pop",
+        "compatible": ["Alternative Rock", "Indie Rock", "Electronic", "Pop ", "Dream Pop", "Folk"]
+    },
+    {
+        "name": "Indie Rock",
+        "compatible": ["Alternative Rock", "Indie Pop", "Emo", "Folk", "Post-Punk", "Punk"]
+    },
+    {
+        "name": "Industrial",
+        "compatible": ["Electronic", "Experimental", "Metal ", "Ambient", "Black Metal", "Techno"]
+    },
+    {
+        "name": "Jam Rock",
+        "compatible": ["Psychedelic", "Stoner Rock", "Rock", "Progressive Rock", "Blues", "Jazz"]
+    },
+    {
+        "name": "Jazz Fusion",
+        "compatible": [
+            "Jazz",
+            "Progressive Rock",
+            "Experimental",
+            "Funk",
+            "Progressive Metal",
+            "Psychedelic"
+        ]
+    },
+    {
+        "name": "Lo-fi",
+        "compatible": [
+            "Indie Rock",
+            "Indie Pop",
+            "Hip-Hop",
+            "Experimental",
+            "Electronic",
+            "Ambient"
+        ]
+    },
+    {
+        "name": "Math Rock",
+        "compatible": [
+            "Post-Rock",
+            "Emo",
+            "Post-Hardcore",
+            "Progressive Rock",
+            "Indie Rock",
+            "Alternative Rock"
+        ]
+    },
+    {
+        "name": "Melodic Death Metal",
+        "compatible": [
+            "Death Metal",
+            "Black Metal",
+            "Metalcore",
+            "Progressive Metal",
+            "Metal ",
+            "Thrash Metal"
+        ]
+    },
+    {
+        "name": "Metalcore",
+        "compatible": [
+            "Hardcore",
+            "Death Metal",
+            "Post-Hardcore",
+            "Progressive Metal",
+            "Metal ",
+            "Electronic"
+        ]
+    },
+    {
+        "name": "Minimal",
+        "compatible": ["Electronic", "Ambient", "Techno", "Experimental", "Classical", "Drone"]
+    },
+    {
+        "name": "New Age",
+        "compatible": ["Ambient", "Folk", "Electronic", "Classical", "Progressive Rock", "Jazz"]
+    },
+    {
+        "name": "Noise Rock",
+        "compatible": [
+            "Experimental",
+            "Punk",
+            "Post-Punk",
+            "Post-Hardcore",
+            "Psychedelic",
+            "Hardcore"
+        ]
+    },
+    {
+        "name": "Nu-metal",
+        "compatible": ["Alternative Rock", "Metalcore", "Metal ", "Rock", "Hard Rock", "Industrial"]
+    },
+    {
+        "name": "Pop Punk",
+        "compatible": ["Punk", "Alternative Rock", "Emo", "Pop Rock", "Indie Rock", "Post-Hardcore"]
+    },
+    {
+        "name": "Pop Rock",
+        "compatible": ["Alternative Rock", "Pop ", "Rock", "Pop Punk", "Indie Rock", "Indie Pop"]
+    },
+    {
+        "name": "Post-Hardcore",
+        "compatible": [
+            "Emo",
+            "Alternative Rock",
+            "Metalcore",
+            "Hardcore",
+            "Punk",
+            "Progressive Rock"
+        ]
+    },
+    {
+        "name": "Post-Metal",
+        "compatible": [
+            "Black Metal",
+            "Post-Rock",
+            "Sludge Metal",
+            "Shoegaze",
+            "Doom Metal",
+            "Metal "
+        ]
+    },
+    {
+        "name": "Post-Punk",
+        "compatible": [
+            "Alternative Rock",
+            "Gothic",
+            "Punk",
+            "Indie Rock",
+            "Electronic",
+            "Experimental"
+        ]
+    },
+    {
+        "name": "Post-Rock",
+        "compatible": [
+            "Emo",
+            "Shoegaze",
+            "Ambient",
+            "Black Metal",
+            "Progressive Rock",
+            "Alternative Rock"
+        ]
+    },
+    {
+        "name": "Power Metal",
+        "compatible": [
+            "Heavy Metal",
+            "Progressive Metal",
+            "Metal ",
+            "Thrash Metal",
+            "Progressive Rock",
+            "Hard Rock"
+        ]
+    },
+    {
+        "name": "Progressive Metal",
+        "compatible": [
+            "Death Metal",
+            "Progressive Rock",
+            "Metalcore",
+            "Metal ",
+            "Thrash Metal",
+            "Power Metal"
+        ]
+    },
+    {
+        "name": "Progressive Rock",
+        "compatible": [
+            "Psychedelic",
+            "Alternative Rock",
+            "Metal ",
+            "Progressive Metal",
+            "Experimental",
+            "Rock"
+        ]
+    },
+    {
+        "name": "Psychedelic",
+        "compatible": [
+            "Rock",
+            "Progressive Rock",
+            "Stoner Rock",
+            "Folk",
+            "Experimental",
+            "Electronic"
+        ]
+    },
+    { "name": "R&B", "compatible": ["Pop ", "Soul", "Hip-Hop", "Electronic", "Funk", "Jazz"] },
+    {
+        "name": "Reggae",
+        "compatible": ["Ska", "Electronic", "Hip-Hop", "Soul", "Alternative Rock", "Pop "]
+    },
+    {
+        "name": "Shoegaze",
+        "compatible": [
+            "Black Metal",
+            "Alternative Rock",
+            "Post-Rock",
+            "Dream Pop",
+            "Indie Rock",
+            "Post-Metal"
+        ]
+    },
+    {
+        "name": "Ska",
+        "compatible": ["Reggae", "Punk", "Pop Punk", "Hardcore", "Alternative Rock", "Rock"]
+    },
+    {
+        "name": "Sludge Metal",
+        "compatible": [
+            "Doom Metal",
+            "Metal ",
+            "Hardcore",
+            "Post-Metal",
+            "Stoner Rock",
+            "Black Metal"
+        ]
+    },
+    { "name": "Soul", "compatible": ["R&B", "Funk", "Pop ", "Jazz", "Hip-Hop", "Blues"] },
+    {
+        "name": "Soundtrack",
+        "compatible": ["Classical", "Electronic", "Ambient", "Jazz", "Pop ", "Experimental"]
+    },
+    {
+        "name": "Stoner Rock",
+        "compatible": ["Psychedelic", "Doom Metal", "Hard Rock", "Sludge Metal", "Metal ", "Rock"]
+    },
+    {
+        "name": "Techno",
+        "compatible": ["Electronic", "House", "Ambient", "Industrial", "Minimal", "IDM"]
+    },
+    {
+        "name": "Thrash Metal",
+        "compatible": [
+            "Death Metal",
+            "Hardcore",
+            "Black Metal",
+            "Metal ",
+            "Heavy Metal",
+            "Progressive Metal"
+        ]
+    },
+    {
+        "name": "Trance",
+        "compatible": ["Electronic", "Psychedelic", "Techno", "House", "Ambient", "Industrial"]
+    },
+    {
+        "name": "Trip Hop",
+        "compatible": ["Electronic", "Hip-Hop", "Downtempo", "Jazz", "Experimental", "Ambient"]
+    }
+]
