@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Accordion"
+    },
+    {
+        "name": "Acoustic Guitar"
+    },
+    {
+        "name": "Backup Vocals",
+        "allows_other_instrument": true
+    },
+    {
+        "name": "Banjo"
+    },
+    {
+        "name": "Bass"
+    },
+    {
+        "name": "Cello"
+    },
+    {
+        "name": "Chapman Stick"
+    },
+    {
+        "name": "Clarinet"
+    },
+    {
+        "name": "Contrabass"
+    },
+    {
+        "name": "Didgeridoo"
+    },
+    {
+        "name": "Drums"
+    },
+    {
+        "name": "Electric Guitar"
+    },
+    {
+        "name": "Flute"
+    },
+    {
+        "name": "Harmonica"
+    },
+    {
+        "name": "Harp"
+    },
+    {
+        "name": "Lead Vocals",
+        "allows_other_instrument": true
+    },
+    {
+        "name": "Mandolin"
+    },
+    {
+        "name": "Oboe"
+    },
+    {
+        "name": "Piano"
+    },
+    {
+        "name": "Saxophone"
+    },
+    {
+        "name": "Trombone"
+    },
+    {
+        "name": "Trumpet"
+    },
+    {
+        "name": "Tuba"
+    },
+    {
+        "name": "Ukulele"
+    },
+    {
+        "name": "Violin"
+    },
+    {
+        "name": "Xylophone"
+    }
+]
