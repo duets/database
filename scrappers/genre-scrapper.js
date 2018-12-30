@@ -5,26 +5,18 @@
  */
 
 const puppeteer = require('puppeteer');
-const path = require('path');
-const fs = require('fs');
 const { performance } = require('perf_hooks');
+const {
+    getFullPath,
+    removeFileIfExists,
+    saveObjectToFile,
+    click
+} = require('./common');
 
 const sputnikUrl = 'https://www.sputnikmusic.com/';
 
-const currentPath = process.cwd();
-const resultFilePath = path.join(currentPath, '../genres.json');
-
-const fileAlreadyExists = fs.existsSync(resultFilePath);
-if (fileAlreadyExists) {
-    console.log(`File already exists. Removing ${resultFilePath}`);
-
-    try {
-        removeExistingFile(resultFilePath);
-    } catch (err) {
-        console.error('There was an error removing the file. Please delete it manually and re-run the script');
-        return;
-    }
-}
+const genresFilePath = getFullPath('genres.json');
+removeFileIfExists(genresFilePath);
 
 const startingTime = performance.now();
 (async () => {
@@ -84,9 +76,9 @@ const startingTime = performance.now();
     console.log('Closing browser');
     await browser.close();
 
-    console.log(`Browser closed. Saving results in ${resultFilePath}`);
+    console.log(`Browser closed. Saving results in ${genresFilePath}`);
     try {
-        saveObjectToFile(scrappedGenres, resultFilePath);
+        saveObjectToFile(scrappedGenres, genresFilePath);
     } catch (err) {
         console.error('There was an error saving the file.');
         return;
@@ -98,24 +90,3 @@ const startingTime = performance.now();
     const executionTime = finishTime - startingTime;
     console.log(`Execution finished. Took ${executionTime} milliseconds`)
 })();
-
-/**
- * According to the Puppeteer documentation, we need to wait for navigation before submitting a click to the page.
- * Otherwise we get a nice timeout when we try to execute this script in headless mode :)
- * Documentation: (https://github.com/GoogleChrome/puppeteer/blob/master/docs/api.md#pageclickselector-options)
- */
-function click(page, selector) {
-    return Promise.all([
-        page.waitForNavigation({ waitUntil: 'load' }),
-        page.click(selector)
-    ])
-}
-
-function saveObjectToFile(obj, path) {
-    const stringified = JSON.stringify(obj);
-    fs.writeFileSync(path, stringified, 'utf-8');
-}
-
-function removeExistingFile(path) {
-    fs.unlinkSync(path);
-}
