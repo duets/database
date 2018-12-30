@@ -126,6 +126,9 @@ const startingTime = performance.now();
 
                 if (matches) {
                     venueCapacity = matches[0];
+
+                    // Commas are useless for us; we're going to turn this into an Integer.
+                    venueCapacity = venueCapacity.replace(',', '');
                 } else {
                     venueCapacity = previousCapacity;
                 }
@@ -135,6 +138,7 @@ const startingTime = performance.now();
                     continue;
                 }
 
+                venueCapacity = parseInt(venueCapacity);
                 previousCapacity = venueCapacity;
 
                 // In some cases the "Opened" column is shared too, so we'll simply ignore those registries for now.
