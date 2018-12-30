@@ -6,7 +6,7 @@ const fs = require('fs');
 const path = require('path');
 
 function getFullPath(file) {
-    const currentPath = process.cwd();
+    const currentPath = __dirname;
     return path.join(currentPath, `../${file}`);
 }
 
