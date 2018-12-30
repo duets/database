@@ -119,7 +119,7 @@ const startingTime = performance.now();
                 // - It can be a range (example: 9,000-10,000), we take the first
                 // - It can contain a reference (example: 20,000[2]), we just take the number
                 // - Have multiple properties. We also take the first
-                const capacityRegex = /(^\d+,\d+)|(^\d+)/
+                const capacityRegex = /(\d+,\d+)|(\d+)/
                 const matches = capacityRegex.exec(capacityContent);
 
                 let venueCapacity = '';
@@ -142,6 +142,9 @@ const startingTime = performance.now();
                 previousCapacity = venueCapacity;
 
                 // In some cases the "Opened" column is shared too, so we'll simply ignore those registries for now.
+                // The way of detecting this should be changed later since it gives a false positive in cases like
+                // the Libya Stadium; the name includes a number (June 11 Stadium) and as such is detected as a wrong
+                // parse. But since the number of positives is just 1 for now, we can think about it later.
                 const wrongNameMatches = capacityRegex.exec(venueName);
                 if (wrongNameMatches) {
                     console.log(`Wrong data processed in row ${i} of country ${countryName}; skipping`);
