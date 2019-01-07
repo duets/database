@@ -15,6 +15,7 @@ const {
     saveObjectToFile
 } = require('./common');
 const { updateLastUpdateTimeOf } = require('./last-update-time');
+const { generateCountriesAndCities } = require('./country-scrapper');
 
 const venuesListUrl = 'https://en.wikipedia.org/wiki/List_of_music_venues';
 
@@ -212,6 +213,7 @@ const startingTime = performance.now();
 
     console.log('Saved successfully');
 
+    await generateCountriesAndCities(venues);
     await updateLastUpdateTimeOf('venues');
 
     const finishTime = performance.now();
