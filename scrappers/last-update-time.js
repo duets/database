@@ -3,7 +3,7 @@
  * update any of the databases.
  */
 
-const common = require('./common');
+const { getFullPath, saveObjectToFile } = require('./common');
 const fs = require('fs');
 const util = require('util');
 
@@ -33,7 +33,7 @@ async function updateLastUpdateTimeOf(key, time = new Date()) {
 }
 
 function getFilePath() {
-    return common.getFullPath(`${fileName}.json`);
+    return getFullPath(`${fileName}.json`);
 }
 
 async function readFile() {
@@ -53,14 +53,9 @@ async function readFile() {
 }
 
 async function saveFile(fileKey, content) {
-    const write = util.promisify(fs.writeFile);
-
-    const contentString = JSON.stringify(content);
     const filePath = getFilePath();
-
     console.log(`Updating last update times in ${filePath}`);
-
-    await write(filePath, contentString);
+    saveObjectToFile(content, filePath)
 }
 
 module.exports = { updateLastUpdateTimeOf };
