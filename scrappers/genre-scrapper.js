@@ -12,6 +12,7 @@ const {
     saveObjectToFile,
     click
 } = require('./common');
+const { updateLastUpdateTimeOf } = require('./last-update-time');
 
 const sputnikUrl = 'https://www.sputnikmusic.com/';
 
@@ -85,6 +86,8 @@ const startingTime = performance.now();
     }
 
     console.log('Saved successfully');
+
+    await updateLastUpdateTimeOf('genres');
 
     const finishTime = performance.now();
     const executionTime = finishTime - startingTime;

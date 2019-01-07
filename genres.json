@@ -13,10 +13,10 @@
         "compatible": [
             "Experimental",
             "Jazz Fusion",
-            "Electronic",
             "Progressive Rock",
+            "Electronic",
             "Hip-Hop",
-            "Funk"
+            "Folk"
         ]
     },
     {
@@ -42,8 +42,8 @@
             "Progressive Rock",
             "Psychedelic",
             "Hard Rock",
-            "Blues",
-            "Stoner Rock"
+            "Stoner Rock",
+            "Blues"
         ]
     },
     {
@@ -52,23 +52,23 @@
     },
     {
         "name": "Americana",
-        "compatible": ["Folk", "Country", "Rock", "Indie Rock", "Indie Folk", "Alternative Rock"]
+        "compatible": ["Folk", "Country", "Rock", "Indie Folk", "Indie Rock", "Alternative Rock"]
     },
     {
         "name": "Black Metal",
-        "compatible": ["Death Metal", "Ambient", "Doom Metal", "Shoegaze", "Folk", "Thrash Metal"]
+        "compatible": ["Death Metal", "Ambient", "Shoegaze", "Doom Metal", "Folk", "Post Metal"]
     },
     {
         "name": "Bluegrass",
-        "compatible": ["Folk", "Country", "Americana", "Jam Rock", "Pop ", "Indie Folk"]
+        "compatible": ["Folk", "Country", "Americana", "Jam Rock", "Jazz", "Experimental"]
     },
     {
         "name": "Blues",
-        "compatible": ["Rock", "Psychedelic", "Hard Rock", "Folk", "Country", "Jazz"]
+        "compatible": ["Rock", "Psychedelic", "Hard Rock", "Folk", "Country", "Soul"]
     },
     {
         "name": "Breaks",
-        "compatible": ["Electronic", "Drum and Bass", "IDM", "Experimental", "Techno", "House"]
+        "compatible": ["Electronic", "Drum and Bass", "IDM", "Techno", "House", "Experimental"]
     },
     {
         "name": "Britpop",
@@ -78,7 +78,7 @@
             "Indie Pop",
             "Pop Rock",
             "Psychedelic",
-            "Electronic"
+            "Shoegaze"
         ]
     },
     {
@@ -201,8 +201,8 @@
         "compatible": [
             "Rock",
             "Heavy Metal",
-            "Alternative Rock",
             "Psychedelic",
+            "Alternative Rock",
             "Stoner Rock",
             "Metal "
         ]
@@ -225,7 +225,14 @@
     },
     {
         "name": "Indie Folk",
-        "compatible": ["Folk", "Indie Rock", "Alternative Rock", "Indie Pop", "Lo-fi", "Americana"]
+        "compatible": [
+            "Folk",
+            "Indie Rock",
+            "Alternative Rock",
+            "Indie Pop",
+            "Lo-fi",
+            "Psychedelic"
+        ]
     },
     {
         "name": "Indie Pop",
@@ -241,7 +248,7 @@
     },
     {
         "name": "Jam Rock",
-        "compatible": ["Psychedelic", "Stoner Rock", "Rock", "Progressive Rock", "Blues", "Jazz"]
+        "compatible": ["Psychedelic", "Stoner Rock", "Progressive Rock", "Rock", "Blues", "Jazz"]
     },
     {
         "name": "Jazz Fusion",
@@ -268,8 +275,8 @@
     {
         "name": "Math Rock",
         "compatible": [
-            "Emo",
             "Post Rock",
+            "Emo",
             "Post Hardcore",
             "Progressive Rock",
             "Indie Rock",
@@ -304,7 +311,14 @@
     },
     {
         "name": "New Age",
-        "compatible": ["Ambient", "Folk", "Electronic", "Classical", "Progressive Rock", "Jazz"]
+        "compatible": [
+            "Ambient",
+            "Electronic",
+            "Folk",
+            "Classical",
+            "Progressive Rock",
+            "Experimental"
+        ]
     },
     {
         "name": "Noise Rock",
@@ -312,14 +326,14 @@
             "Experimental",
             "Punk",
             "Post Punk",
-            "Post Hardcore",
             "Psychedelic",
+            "Post Hardcore",
             "Hardcore"
         ]
     },
     {
         "name": "Nu-metal",
-        "compatible": ["Alternative Rock", "Metalcore", "Metal ", "Rock", "Hard Rock", "Industrial"]
+        "compatible": ["Alternative Rock", "Metalcore", "Metal ", "Hard Rock", "Rock", "Industrial"]
     },
     {
         "name": "Pop Punk",
@@ -366,11 +380,11 @@
         "name": "Post Rock",
         "compatible": [
             "Emo",
-            "Ambient",
             "Shoegaze",
+            "Ambient",
             "Black Metal",
             "Progressive Rock",
-            "Indie Rock"
+            "Post Hardcore"
         ]
     },
     {
@@ -378,8 +392,8 @@
         "compatible": [
             "Heavy Metal",
             "Progressive Metal",
-            "Metal ",
             "Thrash Metal",
+            "Metal ",
             "Progressive Rock",
             "Melodic Death Metal"
         ]
@@ -414,10 +428,10 @@
             "Stoner Rock",
             "Folk",
             "Experimental",
-            "Electronic"
+            "Hard Rock"
         ]
     },
-    { "name": "R&B", "compatible": ["Pop ", "Soul", "Hip-Hop", "Electronic", "Funk", "Jazz"] },
+    { "name": "R&B", "compatible": ["Soul", "Pop ", "Hip-Hop", "Electronic", "Funk", "Jazz"] },
     {
         "name": "Reggae",
         "compatible": ["Ska", "Electronic", "Hip-Hop", "Soul", "Alternative Rock", "Pop "]
@@ -426,8 +440,8 @@
         "name": "Shoegaze",
         "compatible": [
             "Black Metal",
-            "Alternative Rock",
             "Post Rock",
+            "Alternative Rock",
             "Dream Pop",
             "Indie Rock",
             "Post Metal"
@@ -455,7 +469,7 @@
     },
     {
         "name": "Stoner Rock",
-        "compatible": ["Psychedelic", "Doom Metal", "Hard Rock", "Sludge Metal", "Metal ", "Rock"]
+        "compatible": ["Psychedelic", "Doom Metal", "Hard Rock", "Sludge Metal", "Rock", "Metal "]
     },
     {
         "name": "Techno",

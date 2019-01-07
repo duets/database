@@ -12,9 +12,9 @@ const { performance } = require('perf_hooks');
 const {
     getFullPath,
     removeFileIfExists,
-    saveObjectToFile,
-    click
+    saveObjectToFile
 } = require('./common');
+const { updateLastUpdateTimeOf } = require('./last-update-time');
 
 const venuesListUrl = 'https://en.wikipedia.org/wiki/List_of_music_venues';
 
@@ -211,6 +211,8 @@ const startingTime = performance.now();
     }
 
     console.log('Saved successfully');
+
+    await updateLastUpdateTimeOf('venues');
 
     const finishTime = performance.now();
     const executionTime = finishTime - startingTime;
